@@ -2,7 +2,7 @@ import app from './app'
 import './database'
 
 
-import {CONFIG, PORT}from './config'
+import { PORT } from './config'
 require('dotenv').config()
 
 const port = PORT;
